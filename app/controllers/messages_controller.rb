@@ -38,7 +38,7 @@ class MessagesController < ApplicationController
     end
   end
 
-  def destory
+  def destroy
     @message.destroy
     
     flash[:success] = 'Message は正常に削除されました'
